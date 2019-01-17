@@ -28,6 +28,7 @@ People who have significantly contributed to issues, testing, and/or discussions
 - [Justin Bingham](https://github.com/justinwb)
 - [Sarven Capadisli](http://csarven.ca/)
 - [Melvin Carvalho](https://melvincarvalho.com/)
+- [Amy Guy](https://rhiaro.co.uk/)
 - [Kingsley Idehen](https://github.com/kidehen)
 
 ## Community contributors
