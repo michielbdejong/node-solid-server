@@ -118,6 +118,7 @@ describe('Authentication API (OIDC)', () => {
           .type('form')
           .send({ username: 'alice' })
           .send({ password: alicePassword })
+          .send({ access: 'full' })
           .end((err, res) => {
             response = res
             cookie = response.headers['set-cookie'][0]
