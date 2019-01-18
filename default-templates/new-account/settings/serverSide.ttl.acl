@@ -11,3 +11,14 @@
 
     acl:mode acl:Read .
     
+
+<#ownernondestructive>
+    a acl:Authorization;
+
+    acl:agent
+        <{{webINonDestructive}}>;
+
+    acl:accessTo <./serverSide.ttl>;
+
+    acl:mode acl:Read .
+    

@@ -19,5 +19,20 @@
     acl:mode
         acl:Read, acl:Write, acl:Control.
 
+<#ownernondestructive>
+    a acl:Authorization;
+
+    acl:agent <{{webIdNonDestructive}}> ;
+
+    # Set the access to the root storage folder itself
+    acl:accessTo </>;
+
+    # All resources will inherit this authorization, by default
+    acl:defaultForNew </>;
+
+    # When authenticated in non-destructive mode, the owner only has the read and append modes
+    acl:mode
+        acl:Read, acl:Append.
+
 # Data is private by default; no other agents get access unless specifically
 # authorized in other .acls
